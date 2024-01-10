@@ -7,6 +7,8 @@ header{
     justify-content: space-evenly;
     background-color: #f8f8ff;
     padding: 10px;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 .textHeader{
     display: flex;
@@ -145,4 +147,31 @@ form{
 }
 form div{
     margin: 10px;
+}
+
+
+@media (max-width: 600px) {
+    button{
+        background-color: #846AFF;
+        color: #fff;
+        width: 262px;
+    }
+    input,textarea{
+        width: 262px
+    }
+    .textFoco {
+        font-family: 'Roboto', sans-serif;
+        font-size: 26px;
+    }
+    .textSubFoco p {
+        color: #121214;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .imgHero{
+        width:240px;
+        height:300px;
+    }
 }
