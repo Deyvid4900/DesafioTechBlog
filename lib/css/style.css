@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f8f8ff;
+    padding: 10px;
+}
+.textHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.textFoco{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+.textFoco span{
+    color: #846AFF;
+}
+.textSubFoco p{
+    color: #121214;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+}
+.btnBuscarArtigos button{
+    background-color: #846AFF;
+    border: none;
+    color: #fff;
+    padding: 10px 28px;
+    border-radius: 4px;
+    /* height: 49px;
+    width: 214px; */
+    cursor: pointer;
+}
+.divArtigo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+.divArtigo h3{
+    color: #121214;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+}
+main{
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+.divArtigoPae{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.component{
+    max-width: 284px;
+    border: 2px solid #eeeeff;
+    border-radius: 8px;
+    padding: 0px 0px 20px 0px ;
+}
+.component img{
+    width: 284px;
+    height: 135px;
+    border-radius: 4px 4px 0px 0px;
+}
+.divComponent{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 32px;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+.divTextComponent{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    
+}
+.divTextComponent h4{
+    font-family: 'Roboto', sans-serif;
+}
+.divTextComponent p{
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    background-color: #f8f8ff;
+    width: 100%;
+    height: 550px;
+    padding-top: 20px;
+}
+.divBoxForm{
+    width: 70%;
+    background-color: #f8f8ff;
+    /* background-color: red; */
+    margin: 0px auto;
+}
+.tituloInput{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+textarea{
+    height: 100px !important;
+}
+button{
+    background-color: #846AFF;
+    color: #fff;
+}
+input,textarea,button{
+    border: none;
+    width: 582px;
+    height: 39px;
+    border: 2px solid #eeeeff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+form div{
+    margin: 10px;
+}
